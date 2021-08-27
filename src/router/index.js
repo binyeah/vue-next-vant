@@ -18,6 +18,14 @@ const routes = [
       title:'关于'
     }
   },
+  { 
+    path: "/list",
+    name: 'list',
+    component:()=> import('../view/list/index.vue'),
+    meta:{
+      title:'列表'
+    }
+  },
 ];
 
 // 3. 创建路由实例
